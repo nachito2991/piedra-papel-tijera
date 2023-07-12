@@ -31,14 +31,14 @@ function iniciarTurno(e) {
 if (
     (eleccionUsuario === "piedra🪨" && eleccionPC === "tijera✂️")||
     (eleccionUsuario === "tijera✂️" && eleccionPC === "papel📄") ||
-    (eleccionUsuario === "papel📄" && eleccionPC === "tijera✂️"))
+    (eleccionUsuario === "papel📄" && eleccionPC === "piedra🪨"))
    {
     ganaUsuario();
 }
 else if (  
 (eleccionPC === "piedra🪨" && eleccionUsuario === "tijera✂️")||
 (eleccionPC === "tijera✂️" && eleccionUsuario === "papel📄") ||
-(eleccionPC === "papel📄" && eleccionUsuario === "tijera✂️"))
+(eleccionPC === "papel📄" && eleccionUsuario === "piedra🪨"))
 
 {ganaPC();
 }  else {

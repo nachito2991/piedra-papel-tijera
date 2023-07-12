@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../pre-entrega"
+		},
+		{
+			"path": "../../ENTREGABLE2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pre-entrega"
+	}
+}
